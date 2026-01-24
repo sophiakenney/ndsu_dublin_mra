@@ -1,1 +1,1 @@
-# ndsu_dublin_mra
+# Draft genomes of Salmonella Dublin from North Dakota State University Veterinary Diagnostic Laboratory
