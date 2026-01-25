@@ -12,11 +12,8 @@ DOI: *To be updated upon publication release*
   
       * subdir `condaenv_yaml` contains yaml files for all conda environments needed for the analysis
 
-*    `R` contains all code used to perform downstream analysis and data visualizations used in the manuscript
+*    `R` contains all code used to aggregate sequence statistics
 
-      * `assembqc` : assembly qc tables 
-      * `meta` : metadata for final dataset
-      * `readqc` : read qc tables
       * `script` : all R scripts
 
 ### Analysis Pipeline 
@@ -26,11 +23,14 @@ DOI: *To be updated upon publication release*
 Bash scripts should be run in this order: 
 
 1. pbtofq.sh - convert pacbio bam files to fastq
-2. trimqc.sh - qc reads and generate qc reports
-3. classifyreads.sh - taxonomic classification to check for contamination
-4. filterreads.sh - filter for *Enterobacteriaceae* reads
-5. assembly.sh - genome assembly
-6. assembqc.sh - assembly qc
+2. accessionqc.sh - access and qc raw reads from sra
+3. trimqc.sh - qc reads and generate qc reports
+4. classifyreads.sh - taxonomic classification to check for contamination
+5. filterreads.sh - filter for *Enterobacteriaceae* reads
+6. assembly.sh - genome assembly
+7. assembqc.sh - assembly qc
+8. seqsero2.sh - in silico serotype confirmation
+9. sistr.sh - in silico serotype confirmation
 
 #### **RStudio Component**
 
