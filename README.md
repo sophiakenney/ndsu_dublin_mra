@@ -7,6 +7,7 @@ DOI: *To be updated upon publication release*
 ## Repository Structure and Analysis Pipeline 
 
 ### Directory contents
+*   **Table 1** as referenced in the article
 
 *   `bash` contains all code used to perform the analysis and generate output tables used in RStudio
   
