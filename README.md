@@ -9,6 +9,8 @@ DOI: *To be updated upon publication release*
 ### Directory contents
 *   **Table 1** as referenced in the article
 
+    Table 1 Legend : Individial strain metadata, extraction and sequencing details, read and assembly statistics, and data availability.
+
 *   `bash` contains all code used to perform the analysis and generate output tables used in RStudio
   
       * subdir `condaenv_yaml` contains yaml files for all conda environments needed for the analysis
